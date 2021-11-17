@@ -1,0 +1,74 @@
+.header__search {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  @media screen and (max-width:768px) {
+    margin-right: 0 !important;
+  }
+}
+.header__searchThree {
+  @extend .header__search;
+  margin-right: 0 !important;
+}
+
+.header__searchTwo {
+  margin-right: 0 !important;
+}
+
+.header__searchInput {
+  height: 2.5rem;
+  width: 100%;
+  background: #fff;
+  border: 0.063rem solid #e4e4e4;
+  border-radius: 0.313rem;
+  outline-width: 0;
+  padding: 0.625rem !important ;
+  text-indent: 2.188rem;
+  font-size: 0.875rem !important;
+}
+
+.header__voucher{
+  @extend .header__search;
+  margin-right: 0rem !important;
+
+}
+.header__voucherInput{
+  @extend .header__searchInput;
+  text-indent: 0.5rem;
+
+}
+.header__searchInputTwo {
+  border-radius: 2.5rem;
+  padding: 0.625rem !important ;
+  text-indent: 1.8rem;
+}
+.header__search .button {
+  padding: 0.6rem 0.938rem !important;
+  background-color: var(--woozBlue) !important;
+  border: none !important;
+  margin-left: 0.563rem !important;
+  font-weight: bold;
+  font-size: 13px !important;
+}
+.header__search .btn-primary:hover {
+  background-color: var(--woozBlue) !important;
+  border: none !important;
+}
+
+.header__search .button,
+.header__search .button:active,
+.header__search button:active,
+.header__search .button:focus,
+.header__search button:focus,
+.header__search .button:hover,
+.header__search button:hover {
+  border: none !important;
+  outline: none !important;
+  box-shadow: 0rem 0.25rem 0.5rem rgba(0, 0, 0, 0.2);
+}
+
+.header__search .searchIcon {
+  position: absolute;
+  padding-left: 0.813rem !important;
+  height: 1.125rem;
+}

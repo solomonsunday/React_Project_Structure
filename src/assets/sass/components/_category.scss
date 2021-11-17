@@ -1,0 +1,20 @@
+.heading__Title {
+  font-weight: bold;
+  font-size: 20px;
+  @media screen and (max-width:576px) {
+    font-size: 1rem;
+  }
+}
+.link_dirGroup {
+  margin-top: 1rem !important;
+  margin-bottom: 1rem !important;
+  font-weight: 500;
+  font-size: 0.75rem;
+
+  .dir {
+    padding: 0.5rem !important;
+  }
+  .active {
+    color: #777777;
+  }
+}

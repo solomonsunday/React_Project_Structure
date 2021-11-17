@@ -1,0 +1,34 @@
+.body__wrapper{
+    padding-left:11.8% !important;
+    padding-right:11.8% !important;
+}
+.Separator2{
+    margin-left: -1rem !important;
+    margin-top: 0.75rem !important;
+    margin-bottom: 0.75rem !important;
+    border: 0.063rem solid #F1F1F1;
+}
+@media only screen and (max-width: 1200px) {
+    .body__wrapper{
+        padding-left:5% !important;
+        padding-right:5% !important;
+    }
+}
+@media only screen and (min-width: 1280px) {
+    .body__wrapper{
+        max-width: 1536px;
+    }
+}
+
+@media screen and (min-width:2200px){
+    .body__wrapper{
+        padding-left:8% !important;
+        padding-right:8% !important;
+    }
+}
+@media screen and (min-width:3200px){
+    .body__wrapper{
+        padding-left:6% !important;
+        padding-right:6% !important;
+    }
+}

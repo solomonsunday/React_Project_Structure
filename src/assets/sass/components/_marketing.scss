@@ -1,0 +1,9 @@
+.text-2xl{
+    font-size: 1.5rem;
+}
+.ol_terms{
+    li::marker{
+        font-size: 1.5rem;
+        color: var(--woozBlue);
+    }
+}

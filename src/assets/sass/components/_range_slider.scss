@@ -1,0 +1,32 @@
+.rangeSliderClass{
+    font-size: 0.875rem;
+
+    .MuiTypography-gutterBottom {
+        margin-bottom: 0.35em !important;
+        font-size: 0.875rem;
+      }
+      .MuiSlider-root {
+        color: var(--woozBlue);
+        padding: 13px 0 !important;
+      }
+      .MuiSlider-thumb{
+        margin-top: -5px !important;
+        margin-left: -6px !important;
+      }
+
+
+}
+.rangeSlideInput{
+    height: 2.5rem;
+    width: 50%;
+    background: #fff;
+    border: 0.063rem solid #e4e4e4;
+    border-radius: 0.313rem;
+    outline-width: 0;
+    padding: 0.625rem !important ;
+    font-size: 0.875rem !important;
+    margin-right: 0.25rem !important;
+}
+.rangeSlideInput__wrap{
+    display: flex;
+}

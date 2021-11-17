@@ -1,0 +1,35 @@
+
+.headingSpacer_1 {
+  margin-top: 9.6rem !important;
+}
+.headingSpacer_2 {
+  margin-top: 18rem !important;
+  @media screen and (max-width:478px) {
+    margin-top: 6rem !important;
+  }
+}
+.headingSpacer_sm {
+  margin-top: 4.75rem !important;
+}
+
+
+.niceImageContainer {
+  position: absolute;
+  top: -1rem;
+  right: 0;
+  @media screen and (min-width:1920px) {
+    padding-right: 11% !important;
+  }
+  @media screen and (min-width:2200px) {
+    padding-right: 15% !important;
+  }
+  .niceImageItem {
+    width: 829px;
+    height: 763px;
+    object-fit: cover;
+    object-position: 6.2rem 0;
+    @media screen and (min-width:1800px) {
+      object-position: 50% 50%;
+    }
+  }
+}

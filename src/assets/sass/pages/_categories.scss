@@ -1,0 +1,48 @@
+.breadcrumb {
+  padding: 1rem 0rem 2rem 0rem !important;
+  background: whitesmoke !important;
+  font-size: 12px;
+}
+.top_banner {
+  text-align: center !important;
+}
+.top_banner_img {
+  display: block !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  width: 100% !important;
+  height: 10rem !important;
+  object-fit: cover;
+  border-radius: 5px !important;
+}
+.top_badge {
+  background-color: white;
+  border-radius: 5px !important;
+  padding: 0.5rem !important;
+  margin-top: 2rem !important;
+}
+.containe {
+  margin-right: auto !important;
+  margin-left: auto !important;
+  display: block !important;
+  width: 50% !important;
+}
+
+.phone_segment {
+  text-align: center;
+}
+.top_banner_image {
+  width: "100%";
+  margin-top: " 3rem !important";
+}
+
+@media screen and (max-width:992px){
+  .top_badge {
+    margin-top: 1rem !important;
+  }
+}
+@media screen and (max-width:576px){
+  .top_banner_img {
+    height: 6rem !important;
+  }
+}

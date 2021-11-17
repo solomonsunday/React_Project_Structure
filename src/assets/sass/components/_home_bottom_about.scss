@@ -1,0 +1,30 @@
+.bottomAboutSection__container {
+  margin-bottom: 1.625rem !important;
+}
+
+.bottomAboutSection__title {
+  font-weight: bold;
+  font-size: 1.125rem;
+  color: rgba(0, 0, 0, 0.7);
+  margin-bottom: 1rem !important;
+  @media screen and (max-width: 480px) {
+    font-size: 1rem;
+  }
+}
+
+.bottomAboutSection__text > p {
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.bottomAboutSection__wrapper {
+  background: #ffffff;
+  padding: 2.5rem 2.188rem !important;
+  box-shadow: 0rem 0.25rem 0.25rem rgba(0, 0, 0, 0.05);
+  border-radius: 0.313rem;
+  @media screen and (max-width: 480px) {
+    padding: 1rem !important;
+  }
+}
+

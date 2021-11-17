@@ -1,0 +1,303 @@
+.header__container {
+  background-color: white;
+  box-shadow: 0rem 0.25rem 0.25rem rgba(0, 0, 0, 0.05);
+}
+.advertImage {
+  display: block;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  width: 30%;
+  height: 3.5rem;
+  object-fit: cover;
+  padding-top: 0.625rem !important;
+  @media screen and (max-width: 576px) {
+    width: 50%;
+    height: 2.25rem;
+  }
+  @media screen and (max-width: 375px) {
+    width: 80%;
+  }
+}
+.cancelBtn__header{
+  position: absolute;
+  top: 30%;
+  right: 0.5rem;
+  @media screen and (max-width: 480px) {
+    top: 25%;
+  }
+}
+.header__logo {
+  // margin-top: auto !important ;
+  width: 7.938rem;
+  height: 2.5rem;
+}
+.logo__wrapper {
+  padding-right: 1.625rem !important;
+}
+.logwrp {
+  margin-right: 4rem !important;
+}
+.woozSpan {
+  display: flex;
+}
+.option__lineOne,
+.option__lineOneCart {
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #282828;
+  text-transform: capitalize;
+  font-family: "Google Sans" !important;
+}
+.option__lineOneCart {
+  padding-left: 0.5rem !important;
+}
+.header__nav {
+  display: flex;
+  justify-content: space-evenly !important;
+  align-items: center;
+}
+.MuiButton-text {
+  padding: 0.375rem 0.125rem !important;
+}
+.header__option {
+  display: flex;
+}
+.header__icon,
+.dropdown__icon {
+  padding-left: 0.313rem !important;
+  padding-right: 0.313rem !important;
+}
+.purchaseCount {
+  position: absolute;
+  height: 1.063rem;
+  width: 1.063rem;
+  text-align: center;
+  border-radius: 50%;
+  color: white;
+  background-color: #ff5659;
+  margin-top: -0.5rem !important;
+  margin-left: 0.5rem !important;
+}
+.purchaseCount > span {
+  display: flex;
+  font-weight: bold;
+  font-size: 0.75rem;
+  padding-left: 0.25rem !important;
+}
+.headerSecondRow {
+  display: flex;
+  padding-top: 0.313rem !important;
+  padding-bottom: 0.313rem !important;
+}
+.bgSR {
+  background-color: #f5f5f5 !important;
+}
+.headerThirdRow {
+  padding-top: 0.625rem !important;
+  padding-bottom: 0.625rem !important;
+  padding-left: 11.8% !important;
+  padding-right: 11.8% !important;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  @media screen and (max-width:576px) {
+    padding-top: 0.5rem !important;
+    padding-bottom: 0.5rem !important;
+  }
+}
+.some__Container {
+  display: flex;
+  width: 100%;
+}
+.searchWrapper {
+  flex: 1;
+}
+.sell > span {
+  padding-left: 0.313rem !important;
+  font-weight: 500;
+  font-size: 0.75rem;
+  line-height: 0.938rem;
+  color: var(--woozBlue);
+}
+.headerSecondIcon {
+  padding-left: 0.5rem !important;
+  padding-right: 0.5rem !important;
+}
+.headerSecondIcon:hover {
+  svg {
+    fill: var(--woozRed);
+    path {
+      fill: var(--woozRed);
+    }
+  }
+}
+.image__wrapper {
+  background-color: black;
+}
+.advertImage__two,
+.advertImage__three {
+  position: absolute;
+  width: 3.625rem;
+  height: 3.625rem;
+  object-fit: cover;
+  top: -0.188rem;
+}
+
+.advertImage__two {
+  left: 68%;
+}
+.advertImage__three {
+  left: 28%;
+}
+.rectImage,
+.rectImageTwo {
+  position: absolute;
+  height: 3.5rem;
+  top: 0px;
+}
+.rectImage {
+  padding-left: 21% !important;
+}
+.rectImageTwo {
+  padding-left: 77% !important;
+}
+.personIcon {
+  display: none;
+}
+button:focus {
+  outline: none !important;
+}
+
+//HEADER THREE
+
+.question_wrap {
+  display: flex;
+  align-items: center;
+
+  .questionText_wrap {
+    font-weight: 500;
+    font-size: 0.75rem;
+    color: #6b6866;
+    padding-left: 0.313rem !important;
+    line-height: 1rem;
+  }
+}
+.some__item1 {
+  padding-right: 4% !important ;
+}
+.some__item2 {
+  display: flex;
+  align-items: center;
+}
+.smallSection_wrapr {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  gap: 3rem;
+}
+.MuiMenuItem-root {
+  font-size: 0.875rem !important;
+  font-family: "Google Sans" !important;
+}
+.headerThirdRow {
+  .MuiListItem-root {
+    padding-top: 0.75rem !important;
+    padding-bottom: 0.75rem !important;
+  }
+  .MuiPaper-root {
+    min-width: 12.875rem;
+  }
+  .MuiButtonBase-root.MuiButton-root.MuiButton-text + div {
+    z-index: 20;
+  }
+  .MuiPaper-elevation1 {
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.15);
+  }
+}
+
+.adjacentIcon__text2 {
+  padding-left: 1rem !important;
+}
+.logOutTxt {
+  text-align: center !important;
+  justify-content: center !important;
+  font-weight: 500 !important;
+  color: var(--woozRed) !important;
+  &::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 2px;
+    content: "";
+    background-color: #ededed;
+  }
+}
+.cartHeader__Section {
+  padding-left: 0.125rem !important;
+}
+
+.faIconBar {
+  font-size: 1.5rem;
+  cursor: pointer;
+  display: flex;
+  align-self: center;
+}
+.faIconBar > svg {
+  width: 1.25rem;
+  height: 1.25rem;
+}
+
+.lefter.grpr {
+  .dropdown-content {
+    min-width: 200px;
+  }
+}
+.grid__Container__Header{
+  display: grid;
+  grid-template-columns: 0.9fr 3.1fr 1fr;
+  gap: 0rem 1rem;
+}
+
+
+@media only screen and (max-width: 992px) {
+  .logwrp {
+    margin-right: 0rem !important;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .headerSecondRow,
+  .searchWrapper {
+    display: none;
+  }
+  .header__logo {
+    width: 6.75rem;
+    height: 2.125rem;
+  }
+  .some__item1 {
+    flex: 1;
+  }
+}
+
+
+@media only screen and (max-width: 480px) {
+  .option__lineOne,
+  .option__lineOneCart,
+  .header__icon,
+  .helpSection,
+  .dropdown__icon {
+    display: none;
+  }
+  .smallSection_wrapr {
+    gap: 1rem;
+  }
+  .personIcon {
+    display: block;
+    font-weight: 500;
+    font-size: 1.375rem;
+    margin-right: 1rem !important;
+  }
+  .some__item1 {
+    padding-right: 0 !important;
+  }
+}

@@ -1,0 +1,215 @@
+.font-xxs {
+  font-size: 0.625rem !important;
+}
+.font-xs {
+  font-size: 0.75rem !important;
+}
+.font-sm {
+  font-size: 0.875rem !important;
+}
+.font-medium {
+  font-size: 1rem !important;
+}
+.font-md-xl{
+  font-size: 1.25rem !important;
+}
+.font-xl {
+  font-size: 1.5rem !important;
+}
+.font-xxl {
+  font-size: 1.75rem !important;
+}
+.font-3xl {
+  font-size: 2.25rem !important;
+}
+.text-4xl {
+  font-size: 3.8rem !important;
+}
+.text-primary {
+  color: var(--woozBlue) !important;
+}
+.secondary-text {
+  color: var(--woozRed) !important;
+}
+.font-weight-500 {
+  font-weight: 500;
+}
+.font-weight-600 {
+  font-weight: 600;
+}
+
+.bg-secondary {
+  background-color: var(--woozRed) !important;
+}
+.bg-woozPink {
+  background-color: #ffe9e9 !important;
+}
+.three-line-text {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.bg-f5 {
+  background-color: #f5f5f5 !important;
+}
+.min-height-sm {
+  min-height: 8rem !important;
+}
+.min-height-xs {
+  min-height: 6rem !important;
+}
+.bg-center {
+  background-position: 50%;
+}
+.bg-cover {
+  background-size: cover;
+}
+.object-fit-contain {
+  object-fit: contain;
+}
+.object-fit-cover {
+  object-fit: cover;
+}
+.underline {
+  text-decoration: underline !important;
+}
+.slashedText {
+  text-decoration: line-through;
+  text-decoration-color: red;
+}
+.text-woozRed {
+  color: var(--woozRed);
+}
+.text-woozBlue {
+  color: var(--woozBlue);
+}
+.border-woozRed {
+  border-color: var(--woozRed) !important;
+}
+.border-woozBlue {
+  border: 1px solid var(--woozBlue) !important;
+}
+.z-1 {
+  z-index: 1;
+}
+.z-10 {
+  z-index: 10;
+}
+.top-half {
+  top: 50%;
+}
+.left-half {
+  left: 50%;
+}
+.top-40p {
+  top: 40%;
+}
+.left-40p {
+  left: 40%;
+}
+.pointer {
+  cursor: pointer;
+}
+.gap-2 {
+  gap: 0.5rem;
+}
+.gap-3 {
+  gap: 0.75rem;
+}
+.gap-5 {
+  gap: 1.25rem;
+}
+.max-w-sm-md {
+  max-width: 12rem;
+}
+.max-w-md {
+  max-width: 21rem;
+}
+.max-w-md-xl {
+  max-width: 33rem;
+}
+.opacity-50 {
+  opacity: 50%;
+}
+.leading-3 {
+  line-height: 0.75rem;
+}
+.fontsmall {
+  font-size: 0.75rem !important;
+}
+.font_medium {
+  font-size: 0.875rem !important;
+}
+.p-0_75 {
+  padding: 0.75rem;
+}
+.p-0_875 {
+  padding: 0.875rem;
+}
+.bx_shadow1 {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+}
+.overflow-x-auto {
+  overflow-x: auto;
+}
+
+.bg-woozBlue {
+  background-color: var(--woozBlue) !important;
+  &:hover,
+  &:focus,
+  &:active {
+    background-color: var(--woozBlue) !important;
+    color: white !important;
+  }
+}
+
+.bg-woozRed {
+  background-color: var(--woozRed) !important;
+  &:hover,
+  &:focus,
+  &:active {
+    background-color: var(--woozRed) !important;
+    color: white !important;
+  }
+}
+
+button,
+button:hover,
+button:active,
+button:focus,
+input,
+input:active,
+input:hover,
+input:focus {
+  outline: none !important;
+}
+
+.line-height-5 {
+  line-height: 5rem;
+}
+
+.textPrimary {
+  color: var(--woozBlue) !important;
+}
+
+.py_0875 {
+  padding-top: 0.875rem !important;
+  padding-bottom: 0.875rem !important;
+}
+
+.borderPrimary {
+  border-color: var(--woozBlue) !important;
+}
+@media (min-width: 992px) {
+  .pl-lg-9 {
+    padding-left: 7rem !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .font-md-xxl {
+    font-size: 1.75rem !important;
+  }
+}

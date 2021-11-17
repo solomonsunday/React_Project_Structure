@@ -1,0 +1,71 @@
+.helpCenter__images {
+  width: 4.5rem;
+  height: 4.5rem;
+}
+.customer_h2_txt {
+  font-size: 2rem;
+}
+
+.customer_img_icon {
+  font-size: 2.5rem !important;
+}
+.help_descript_image {
+  height: 1.5rem;
+}
+.search_Icon_text {
+  max-width: 85%;
+}
+.help__banner__img {
+  max-width: 1170px;
+}
+.trackHeader__img {
+  width: 4.688rem;
+  height: 4.688rem;
+}
+.video__wrap {
+  height: 19.6rem;
+}
+.placeOrder__txt__wrap {
+  margin: 0 auto !important;
+  padding: 1.25rem !important;
+  border-radius: 0.5rem;
+  border: 1px solid var(--woozBlue);
+  background-color: #eff2ff;
+}
+.gateway_img{
+  height: 3.125rem;
+}
+.help_footer_hr{
+  margin-top: 1.25rem;
+  border: 0;
+  border-color: #fbfbfb;
+  border-top: 1px solid #ccc;
+  clear: both;
+  display: block;
+  margin-bottom: 0;
+  width: 100%;
+}
+.-header {
+  text-transform: uppercase;
+  font-size: 5em;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 20%);
+  font-weight: 500;
+  color: white;
+  background-image: url("../../images/help/bgMasterCard.jpeg");
+}
+
+@media screen and (max-width: 768px) {
+  .customer_h2_txt {
+    font-size: 1rem;
+  }
+  .-header {
+    font-size: 2.5em;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .help_descript_image {
+    max-width: 8rem;
+    object-fit: contain;
+  }
+}

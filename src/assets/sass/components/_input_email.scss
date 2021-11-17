@@ -1,0 +1,22 @@
+.email{
+    display: flex;
+    flex:1;
+    align-items: center;
+    margin-top: 1.25rem !important;
+    margin-right: 1.25rem !important;
+    max-width: 18.75rem ;
+
+}
+.emailInput{
+    position: relative !important;
+    height: 40px !important;
+    width: 100% !important;
+    background: #FAFAFA !important;
+    border: 1px solid #E4E4E4;
+    border-radius: 5px 0px 0px 5px;
+    outline-width: 0;
+    padding: 10px !important ;
+    opacity: 100 !important;
+    font-size: 0.75rem;
+    text-indent: 0.313rem; 
+}

@@ -1,0 +1,108 @@
+.footer {
+    background-color: #002a55;
+    padding-top: 4rem !important;
+    padding-bottom: 4rem !important;
+    margin-top: 5.75rem !important;
+  }
+  .fcontainer {
+    color: #fff;
+  }
+  .container{
+      padding-left:0px !important ;
+  }
+  .frowOne__wrapper p{
+      padding-top:0.625rem !important;
+      padding-bottom:0.625rem !important;
+      padding-right:0.625rem !important;
+      font-size: 0.75rem ;
+  }
+  .frowOne__wrapper h2{
+      font-weight: 800;
+      font-size: 1.125rem ;
+      margin-bottom: 1.25rem !important;
+  }
+  .frowOne__wrapper h5{
+      font-weight: bold;
+      font-size: 0.75rem ;
+      line-height: 1.25rem;
+  }
+  .shop {
+    font-weight: bold;
+    font-size: 0.75rem ;
+    margin-top: 0.938rem !important;
+  }
+  
+  .smallCard {
+    background-color: #ffba08;
+    padding: 0.313rem 0.625rem !important;
+    width: 2.813rem;
+    height: 2.875rem;
+    float: right;
+    margin-top: -2.5rem !important;
+  }
+  .smallCard p {
+    color: #000;
+    padding: 0px !important;
+    font-weight: bold;
+      font-size: 0.875rem ;
+  }
+  .smallInfoGroup{
+      padding-bottom: 1.875rem !important;
+  }
+  .newsLetterSection{
+      padding-bottom: 4.125rem !important;
+  }
+  .newsLetterSection >p{
+      line-height: 1.25rem;
+  }
+  .secondRow{
+      float: none;
+  }
+  .bonusimg{
+    width: 100%;
+  }
+  .googlePlay{
+    margin-right: 1.313rem !important;
+  }
+  .econnectLogo{
+    margin-right: 2.5rem !important;
+  }
+  .socialMedia{
+    padding-right: 0.938rem !important;
+  }
+  .readMore{
+    padding-left: 5rem !important;
+    font-size: 0.75rem;
+    font-weight: 700;
+  }
+  .lastRow, .playSection, .eConnectLimited{
+    margin-top: 1.25rem !important;
+    margin-bottom: 1.25rem !important;
+  }
+  .eConnectLimited>p{
+    font-size: 0.875rem;
+font-weight: 700;
+  }
+  .blog{
+    max-width: 15.625rem;
+  }
+  .readCount>img{
+    padding-right:0.313rem !important;
+  }
+  .readCount{
+    font-size: 0.875rem;
+    font-weight: bold;
+    padding-right:0.625rem !important;
+  }
+
+  @media only screen and (min-width: 1280px) {
+    .fcontainer{
+        max-width: 1536px;
+    }
+}
+
+@media screen and (min-width:992px){
+   .secondRow{
+      float: right;
+  }
+}

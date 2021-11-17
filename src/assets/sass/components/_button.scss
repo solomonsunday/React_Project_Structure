@@ -1,0 +1,22 @@
+.largeButton{
+    width: 100%;
+    height: 3.25rem;
+    background: var(--woozBlue);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 0.313rem;
+    font-weight: bold;
+    font-size: 0.938rem;
+    color: white;
+    border: none !important;
+    margin-bottom: 0.75rem !important;
+}
+.btnGrp__wrapr{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+}
+@media screen and (max-width:768px){
+    .proceedbtn, .continuebtn{
+        display: flex;
+        justify-content: center;
+    }
+}

@@ -1,0 +1,41 @@
+@import "../../../node_modules/bootstrap/scss/bootstrap";
+
+
+// import base
+@import "./base/typography";
+@import "./base/variable";
+
+
+//scss files for components
+@import "./components/header";
+@import "./components/footer_new";
+@import "./components/footer";
+@import "./components/home_bodynav";
+@import "./components/home_bottom_about";
+@import "./components/account_rowsui";
+@import "./components/button";
+@import "./components/product";
+@import "./components/product_cards";
+@import "./components/body_wrapper";
+@import "./components/input_email";
+@import "./components/deal_section";
+@import "./components/phone_segment";
+@import "./components/catsidenav";
+@import "./components/navbar";
+@import "./components/homebody_top";
+@import "./components/checkout";
+@import "./components/cart";
+@import "./components/search";
+@import "./components/range_slider";
+@import "./components/category";
+@import "./components/catStyle";
+@import "./components/image_card";
+@import "./components/authModal";
+@import "./components/help";
+@import "./components/marketing";
+
+
+
+// scss files for pages
+@import "./pages/categories";
+@import "./pages/sellOnWoozeee";
